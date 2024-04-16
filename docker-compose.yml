@@ -1,4 +1,4 @@
-﻿version: '3.4'
+﻿#version: '3.4'
 
 services:
   razortest:
@@ -7,4 +7,4 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "6002:80"
+      - "6002:8080"

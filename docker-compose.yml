@@ -1,0 +1,10 @@
+﻿version: '3.4'
+
+services:
+  razortest:
+    #image: ${DOCKER_REGISTRY-}webapp
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "6002:80"
